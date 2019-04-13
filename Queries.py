@@ -4,7 +4,7 @@ from neo4j import GraphDatabase
 
 uri = "bolt://localhost:11001" #Mi computadora no puede abrir ciertos puertos y solo dio permiso en ese
                                #Lo Reconoce como un puerto seguro
-driver = GraphDatabase.driver(uri, auth=("neo4j", "nayra1316"))
+driver = GraphDatabase.driver(uri, auth=("neo4j", "nayra161"))
 
 def regresador(tx):
     return tx.run("MATCH (a:Patentador)-[r:Patents]->() "
