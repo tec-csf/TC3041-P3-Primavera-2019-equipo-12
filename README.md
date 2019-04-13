@@ -3,4 +3,4 @@ Orientaciones para la Práctica 3. Graph databases
 
 
 Rafael Díaz Medina A01024592
-Juan Jose A01022009
+Juan Jose Santos A01022009
