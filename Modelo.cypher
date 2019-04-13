@@ -1,3 +1,5 @@
+#Rafael Díaz Medina A01024592
+#Juan Jose A010229009
 #Ingresar los nodos
 LOAD CSV WITH HEADERS FROM 'file:///Idnodes.csv' AS row 
 WITH toInteger(row.Id) AS Id
